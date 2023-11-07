@@ -47,8 +47,8 @@ int main() {
 
             results.push_back(maxCoins(inputArray));
         }
-        for (int result : results) {
-            std::cout << result << " " << std::endl;
+        for (int i = 0; i < results.size(); i++) {
+            std::cout << "Case " << i + 1 << ": " << results[i] << std::endl;
         }
     }
     return 0;
